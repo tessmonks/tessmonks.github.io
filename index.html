@@ -132,8 +132,8 @@ Alternating theme: remove day-mode / night-mode from the classname and uncomment
         </a></h1>
 
         <nav class="tbnav">
-<a data-tabs="tab1" class="active">CV/Resume</a>
-<a data-tabs="tab2">Links</a>
+<a data-tabs="tab1" class="active">Home</a>
+<a data-tabs="tab2">CV/Resume</a>
 <a data-tabs="tab3">Research</a>
         </nav>
     </div>
@@ -261,42 +261,15 @@ After graduating from the University of Richmond with a Bachelor's in Latin, Anc
 
 
     <!--Blogroll-->
-{block:Following}
+ <title>CV/Resume</title>
+  </head>
+  <body>
+    <h1>Document</h1>
+    <iframe src="/Desktop/Resume.pdf" width="100%" height="500px">
+    </iframe>
  
-    <section class="tabs"id="tab4">
-    <h1>Blogroll</h1>
- 
-    <div class="broll_cont">
- 
- 
-{block:Followed}
- 
-        <div class="followed_user">
-            <div class="followed_img">
-                <div>
-        <img src="{FollowedPortraitURL-128}">    
-                </div>
-            </div>
-            <div class="followed_txt">
-                <span>
-                <b><a class="a-link" href="{FollowedURL}">{FollowedName}</a></b><br>
-                {FollowedTitle}
-                </span>
-            </div>
-        </div>
- 
-{/block:Followed}
- 
- 
- 
- 
-    </div>
- 
-    </section> 
- 
-{/block:Following}    
+  
     <!--/Blogroll-->
-
 
 
         

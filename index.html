@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
- <head>
+
+    <head>
 
 <meta charset="UTF-8" />
 <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <link rel="shortcut icon" href="{Favicon}">   
 
-        <title>{Tess Monks}</title>
+        <title>{Title}</title>
         
     
     
@@ -28,6 +29,7 @@
         
 <style type="text/css">
 
+/*Customise stuff here*/
 
 :root {
 
@@ -37,29 +39,87 @@
 /*accent colours*/    
 --accent: #53759b;
 --highlight: #cfe9f6;
+  
+/*accent colours with opacity*/  
+
+/*
+convert the accent & highlight hex codes to RGB values using the following website: 
+
+https://www.rapidtables.com/convert/color/hex-to-rgb.html
+
+*/
 
 --accentalpha: 83, 117, 155;
 --highlightalpha: 207, 233, 246;
+
+/* available blend modes:
+
+- Normal
+- Multiply
+- Scren
+- Color Burn
+- Color Dodge
+- Overlay
+- Soft Light
+- Hard Light
+- Hue
+- Color
+
+
+*/
 
 --abtblend:multiply;
 --faqblend:multiply;
 
 
+
 }
 
+/*Available body fonts: 
+
+- Fira Sans
+- Open Sans
+- Karla
+- Source Sans Pro
+
+*/
 
 body {
     font-family:'Fira Sans',sans-serif;
 }
 
+/*Available heading fonts:
+
+- Playfair Display
+- Elsie
+- Unna
+- Libre Baskerville
+
+*/
 
 h1, h2, .tilter__title {font-family:'Playfair Display',serif;}
+
+/*FAQ background*/
+article.faqbg {
+    background-image: url('https://64.media.tumblr.com/7c29a2e824b9521c05054c115361f86f/4e8a6883106985ad-1d/s2048x3072/7a35f4e0e60ed72f6bdc469df7a3dfc53d9db1d0.jpg');
+}
+
 
 
 </style>
 
+<!--the rest of the CSS stylesheet-->
+<link rel="stylesheet" href="https://static.tumblr.com/qp1dgt3/COWqyy1ii/eudamia-main.css"> 
+
     </head>
     
+<!--How to use different theme modes: in the body tag below
+
+Light theme: day-mode
+Dark theme: night-mode
+Alternating theme: remove day-mode / night-mode from the classname and uncomment the script at the end of the HTML
+
+-->    
 <body class="animsition day-mode">
 
 <div class="topbar">

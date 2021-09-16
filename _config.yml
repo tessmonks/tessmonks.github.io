@@ -1,1 +1,7 @@
 theme: bay_jekyll_theme
+header:
+  pages:
+    - name: Home
+      slug: /     # <-- index.md
+    - name: Blog  # <-- blog.md
+    - name: Whatever  # <-- whatever.md

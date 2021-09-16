@@ -1,4 +1,4 @@
-theme: bay_jekyll_theme
+remote_theme: eliottvincent/bay
 header:
   pages:
     - name: Tess Monks
